@@ -9,12 +9,6 @@ body {
       display:flex;
       justify-content: flex-end;
       align-items: center;
-    /*
-      align-items:flex-start;
-      flex-direction:column;
-      align-items:center;
-      align-items:flex-end;
-      */
     }
 
   }
@@ -31,32 +25,42 @@ body {
   }
 
   .banner {
-    height: 400px;
-    max-width: 700px;
-    margin: 40px auto 40px auto;
-    background-color: #2a2a2a;
+    height: auto;
+    max-width: 300px;
+    border: 1px solid #c7c7c7;
+    margin: 40px auto auto auto;
+    background-color: white;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
+.banner h2{
+  padding-top: 3rem;
+}
+.banner section{
+  padding-top: 1rem;
+  padding-left: 15px;
+  align-self: flex-start;
+  padding-bottom: 10px;
 
-  .center-me {
-    color: white;
-    font-size: 50px;
- /* margin:auto; */
-  }
 
-  /*
-  There are two ways to center content on a page:
-
-  by adding the following property + value on the child element of a container that has the flex property applied:
-  margin:auto;
-
-  by adding the following property + value on the parent element of a container's item that has the flex property applied:
-  justify-content: center;
-  align-items: center;
-   */
-
+}
+.banner section input{
+  border: 1px solid #c1c5c8
+  height: 15px;
+  flex: 1;
+}
+.banner button{
+  background: #0077c5;
+  border: #0077c5;
+  border-radius: 4px;
+  width: 80%;
+  margin-bottom: 10px;
+  height: 44px;
+  text-transform: capitalize;
+  color: white;
+}
 
    #btn-signin{
      background: #0077c5;
