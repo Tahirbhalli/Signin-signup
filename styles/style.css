@@ -2,6 +2,8 @@ body {
     background-color: #eceef1;
     font-size: 12px;
     font-family: 'Gayathri', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 @media(min-width:640px){
@@ -11,6 +13,17 @@ body {
       align-items: center;
     }
 
+  }
+
+  .logo-icons {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  }
+
+  .logo-icons img {
+      justify-content: flex-end;
+      align-items: center;
   }
 
   .container-1 div{
@@ -26,9 +39,8 @@ body {
 
   .banner {
     height: auto;
-    max-width: 300px;
     border: 1px solid #c7c7c7;
-    margin: 40px auto auto auto;
+    margin: 0px auto auto auto;
     background-color: white;
     display: flex;
     align-items: center;
@@ -47,9 +59,11 @@ body {
 
 }
 .banner section input{
-  border: 1px solid #c1c5c8
+  border: 1px solid #c1c5c8;
   height: 15px;
   flex: 1;
+  width: 348px;
+  margin-right: 10px;
 }
 .banner button{
   background: #0077c5;
