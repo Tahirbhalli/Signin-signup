@@ -51,26 +51,27 @@ body {
   padding-top: 3rem;
 }
 .banner section{
-  padding-top: 1rem;
+  padding-top: 1.2rem;
   padding-left: 15px;
   align-self: flex-start;
   padding-bottom: 10px;
-
-
+  margin-bottom: 10px;
 }
+
 .banner section input{
   border: 1px solid #c1c5c8;
-  height: 15px;
+  height: 34px;
   flex: 1;
   width: 348px;
   margin-right: 10px;
 }
+
 .banner button{
   background: #0077c5;
   border: #0077c5;
   border-radius: 4px;
   width: 80%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   height: 44px;
   text-transform: capitalize;
   color: white;
@@ -94,3 +95,8 @@ body {
      justify-content: flex-start;
      align-items: center;
    }
+
+.label {
+    margin-bottom: 1px;
+    display: block;
+}
