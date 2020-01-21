@@ -100,3 +100,32 @@ body {
     margin-bottom: 1px;
     display: block;
 }
+#terms{
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+
+}
+#Policy{
+  background-color:#eceef1;
+  height: 50px;
+  width: 100%
+}
+#Policy p{
+  padding-left: 30px;
+}
+footer{
+  margin-top: 1.8rem;
+  margin-left: 5rem;
+}
+footer span.center-span{
+  margin-left: 5rem;
+}
+footer nav{
+  margin-left: 18rem;
+  padding-bottom: 5px;
+}
+footer nav a{
+
+  padding-right: 5px;
+}
