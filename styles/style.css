@@ -50,7 +50,7 @@ body {
     flex-direction: column;
     height: auto;
     justify-content: center;
-    margin: 0px auto auto auto;
+    margin: auto auto auto auto;
   }
 .banner h2{
   padding-top: 3rem;
@@ -122,7 +122,7 @@ footer{
   margin-left: 20rem;  
   margin-top: 1.8rem;
 }
-footer span.center-span{
+.center-span{
   margin-left: 5rem;
 }
 footer nav{
