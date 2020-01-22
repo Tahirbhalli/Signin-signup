@@ -82,7 +82,7 @@ body {
   width: 80%;
 }
 
-   #btn-signin{
+   .box-1 button{
      align-items: center;
      background: #0077c5;
      border: 1px solid #4c4c4c;
