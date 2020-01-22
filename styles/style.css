@@ -105,7 +105,7 @@ body {
     display: block;
     margin-bottom: 1px;
 }
-#terms{
+.terms{
   color: #757575;
   font-size: 12px;
   font-style: italic;
