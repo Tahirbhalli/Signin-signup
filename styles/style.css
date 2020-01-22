@@ -71,13 +71,14 @@ body {
   width: 348px;
 }
 
-.banner button{
+ form button{
   background: #0077c5;
   border: #0077c5;
   border-radius: 4px;
   color: white;
   height: 44px;
   margin-bottom: 20px;
+  margin-left: 35px;
   text-transform: capitalize;
   width: 80%;
 }
