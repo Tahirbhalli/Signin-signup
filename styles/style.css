@@ -93,10 +93,7 @@ body {
      justify-content: flex-start;
      margin-left: 8px;
      margin-top: 15px;
-     padding-bottom: 5px;
-     padding-left: 10px;
-     padding-right: 10px;
-     padding-top: 5px;
+     padding: 5px 10px 5px 10px;
      position: relative;
      width: 105px;
    }
