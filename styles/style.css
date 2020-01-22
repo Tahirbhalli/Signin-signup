@@ -86,7 +86,7 @@ h2{
    .box-1 button{
      align-items: center;
      background: #0077c5;
-     
+
      border-radius: 4px;
      bottom: 12px;
      color: white;
@@ -96,7 +96,7 @@ h2{
      margin-top: 15px;
      padding: 5px 10px 5px 10px;
      position: relative;
-     width: 105px;
+     
    }
 
 .label {
