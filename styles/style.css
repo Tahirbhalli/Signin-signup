@@ -1,0 +1,132 @@
+body {
+    background-color: #eceef1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 12px;
+
+}
+
+@media(min-width:640px){
+    .container-1{
+    align-items: center;
+        display:flex;
+     justify-content: flex-end;
+
+    }
+
+  }
+
+  .logo-icons {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  }
+
+  .logo-icons img {
+      align-items: center;
+      justify-content: flex-end;
+
+  }
+
+  .container-1 div{
+    padding:10px;
+  }
+
+  .box-1{
+    align-items: center;
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+
+
+  }
+
+  .banner {
+    align-items: center;
+    background-color: white;
+    border: 1px solid #c7c7c7;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    margin: auto auto auto auto;
+  }
+h2{
+  padding-top: 3rem;
+}
+.banner section{
+  align-self: flex-start;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-top: 1.2rem;
+}
+
+.banner section input{
+
+  flex: 1;
+  height: 34px;
+  margin-right: 10px;
+  width: 348px;
+}
+
+ form button{
+  background: #0077c5;
+
+  border-radius: 4px;
+  color: white;
+  height: 44px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  text-transform: capitalize;
+  width: 80%;
+}
+
+   .box-1 button{
+     align-items: center;
+     background: #0077c5;
+
+     border-radius: 4px;
+     bottom: 12px;
+     color: white;
+     font-size: 1.125em;
+     justify-content: flex-start;
+     margin-left: 8px;
+     margin-top: 15px;
+     padding: 5px 10px 5px 10px;
+     position: relative;
+     
+   }
+
+.label {
+    display: block;
+    margin-bottom: 1px;
+}
+.terms{
+  color: #757575;
+  font-size: 12px;
+  font-style: italic;
+}
+.Policy{
+  background-color:#eceef1;
+  height: 50px;
+  width: 100%;
+}
+.Policy p{
+  padding-left: 30px;
+}
+footer{
+  margin-left: 20rem;
+  margin-top: 1.8rem;
+}
+.center-span{
+  margin-left: 5rem;
+}
+footer nav{
+  margin-left: 18rem;
+  padding-bottom: 5px;
+}
+footer nav a{
+  padding-right: 5px;
+}
