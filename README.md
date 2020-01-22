@@ -2,9 +2,10 @@
 
 > HTML Form Sample
 
-![screenshot]()
+htmforum.png
 
-Additional description about the project and its features.
+We Create a Sigup page included a input form and use flex property for properly positioned all elements in page.
+
 
 ## Built With
 
