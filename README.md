@@ -2,7 +2,7 @@
 
 > HTML Form Sample
 
-./htmforum.png
+https://github.com/Tahirbhalli/Signin-signup/blob/header/htmforum.png
 
 We Create a Sigup page included a input form and use flex property for properly positioned all elements in page.
 
